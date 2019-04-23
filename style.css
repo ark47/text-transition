@@ -32,7 +32,7 @@ h1 span:nth-child(1)::before {
     right: 0;
     width: 50%;
     height: 30px;
-    background: #D1044C;
+    background: crimson;
     transform-origin: right;
     transform: scaleX(0);
     transition: 0.5s;
@@ -50,7 +50,7 @@ h1 span:nth-child(2)::before {
     left: 0;
     width: 50%;
     height: 30px;
-    background: #D1044C;
+    background: crimson;
     transform-origin: left;
     transform: scaleX(0);
     transition: 0.5s;
@@ -68,7 +68,7 @@ h1 span hide {
 
 h1:hover span hide {
     transition-delay: 1s;
-    color: #D1044C;
+    color: crimson;
     opacity: 0;
 }
 
